@@ -37,6 +37,11 @@ dependencies {
 	compile 'org.apache.commons:commons-lang3'
 	compile 'mysql:mysql-connector-java'
 
+//	compile 'com.github.binarywang: weixin-java-mp: 3.1.1.BETA'
+//	compile 'org.apache.directory.studio: org.dom4j.dom4j: 1.6.1'
+//	compile 'com.thoughtworks.xstream: xstream: 1.4.10'
+	compile 'com.thoughtworks.xstream:xstream:1.4.10'
+
 	testCompile 'org.springframework.boot:spring-boot-starter-test'
 	runtime 'org.springframework.boot:spring-boot-properties-migrator'
 }
